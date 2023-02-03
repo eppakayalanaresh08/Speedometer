@@ -1,0 +1,100 @@
+.bg-Container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-Meter {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-Meter {
+    font-size: 47px;
+  }
+}
+
+.image-speed {
+  height: 124px;
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-speed {
+    height: 300px;
+    width: 700px;
+  }
+}
+.heading-increase-speed {
+  font-size: 23px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-increase-speed {
+    font-size: 32px;
+  }
+}
+
+.paragraph-speed {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph-speed {
+    font-size: 15px;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-Accelerate {
+  background-color: #0b69ff;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+}
+
+.button-Brake {
+  color: #94a3b8;
+  background-color:transparent;
+  font-family: 'Roboto';
+  border: 2px solid #94a3b8;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.button {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  margin-left: 12px;
+  margin-right: 12px;
+  outline: none;
+  cursor: point;
+}
